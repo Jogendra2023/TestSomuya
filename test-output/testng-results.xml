@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31063" started-at="2018-11-21T18:04:44Z" finished-at="2018-11-21T18:05:15Z">
+    <groups>
+      <group name="Login">
+        <method signature="Login_test.logintoappwithvalid()[pri:0, instance:com.wallmonkey.test.Login_test@4dfa3a9d]" name="logintoappwithvalid" class="com.wallmonkey.test.Login_test"/>
+      </group> <!-- Login -->
+    </groups>
+    <test name="chrometest" duration-ms="31063" started-at="2018-11-21T18:04:44Z" finished-at="2018-11-21T18:05:15Z">
+      <class name="com.wallmonkey.test.Login_test">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.wallmonkey.test.Login_test@4dfa3a9d]" name="setup" is-config="true" duration-ms="4215" started-at="2018-11-21T23:34:44Z" finished-at="2018-11-21T23:34:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintoappwithvalid()[pri:0, instance:com.wallmonkey.test.Login_test@4dfa3a9d]" name="logintoappwithvalid" duration-ms="26659" started-at="2018-11-21T23:34:48Z" description="Login to Application" finished-at="2018-11-21T23:35:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoappwithvalid -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.wallmonkey.test.Login_test@4dfa3a9d]" name="teardown" is-config="true" duration-ms="165" started-at="2018-11-21T23:35:15Z" finished-at="2018-11-21T23:35:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.wallmonkey.test.Login_test -->
+    </test> <!-- chrometest -->
+  </suite> <!-- Suite -->
+</testng-results>
